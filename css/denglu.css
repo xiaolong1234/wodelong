@@ -1,0 +1,184 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+  margin: 0;
+  padding: 0;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/20px "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:visited {
+  color: ;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #ff8400;
+  text-decoration: underline;
+}
+body {
+  background-color: #f9f9f9;
+}
+html {
+  font-size: 100px;
+}
+.top {
+  height: 0.92rem;
+  padding-left: 0.3rem;
+  padding-right: 0.38rem;
+  font-size: 0.28rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FA3432;
+}
+.list {
+  background-color: #f9f9f9;
+  height: 3.3rem;
+  align-items: center;
+  display: flex;
+}
+.list img {
+  margin: 0 auto;
+  width: 1.92rem;
+  height: 1.92rem;
+}
+.form {
+  position: relative;
+}
+.form .all {
+  font-size: 0.26rem;
+  margin-left: 0.38rem;
+  color: #0E0E0E;
+  margin-bottom: 0.22rem;
+}
+.form input {
+  width: 7rem;
+  height: 0.77rem;
+  border: 1px solid #ccc;
+  margin-left: 0.25rem;
+  font-size: 0.24rem;
+  padding-left: 0.66rem;
+}
+.form i {
+  height: 0.62rem;
+  width: 0.38rem;
+  font-size: 0.5rem;
+}
+.form .icon-shouji {
+  position: absolute;
+  left: 0.4rem;
+  top: 0.75rem;
+}
+.form .btn {
+  width: 6.92rem;
+  height: 0.81rem;
+  background-color: #FA3432 ;
+  border: none;
+  margin-left: 0.24rem;
+  margin-top: 0.23rem;
+  color: #fff;
+  font-size: 0.3rem;
+}
+.form span {
+  font-size: 0.3rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.2rem;
+}
+footer {
+  background-color: #ffffff;
+  border-top: 1px solid  #ccc;
+  height: 1.65rem;
+  text-align: center;
+  margin-top: 1.75rem;
+  padding-top: 0.45rem;
+  margin-bottom: 2.8rem;
+}
+footer .links {
+  color: #494848;
+  font-size: 0.28rem;
+}
+footer .copyright {
+  color: #9a9b9c;
+  font-size: 0.26rem;
+}

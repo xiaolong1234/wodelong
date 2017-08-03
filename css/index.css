@@ -1,0 +1,372 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+  margin: 0;
+  padding: 0;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/20px "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:visited {
+  color: ;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #ff8400;
+  text-decoration: underline;
+}
+body {
+  background-color: #f9f9f9;
+}
+html {
+  font-size: 100px;
+}
+header {
+  background-color: #fa3432;
+  color: #fff;
+  height: 0.94rem;
+  font-size: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.18rem;
+  padding-right: 0.3rem;
+}
+header a {
+  color: #ffffff;
+}
+header .logo h1 {
+  font-size: 0.3rem;
+}
+header .logo a {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  height: 0.49rem;
+  width: 0.47rem;
+  margin-right: 0.1rem;
+}
+.topnav {
+  background-color: #fff;
+  height: 0.86rem;
+  display: flex;
+  font-size: 0.24rem;
+  align-items: center;
+  justify-content: space-around;
+}
+.topnav a {
+  color: #4b4a4a;
+}
+.topnav .current {
+  color: #ff3636;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe .swip-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.swipe .swip-wrap .page {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.swipe img {
+  width: 100%;
+  height: 100%;
+}
+.swipe .indirector {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.swipe .indirector span {
+  display: inline-block;
+  margin: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.swipe .indirector span.on {
+  background-color: red;
+}
+.usernav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2rem;
+  font-size: 0.24rem;
+  background-color: #fff;
+}
+.usernav a {
+  color: #808080;
+}
+.usernav .iconfont {
+  margin: 0 auto;
+  margin-bottom: 0.1rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 30%;
+  display: block;
+  color: #fff;
+  line-height: 0.9rem;
+  font-size: 0.5rem;
+  text-align: center;
+}
+.usernav .icon-suo {
+  background-color: #4099e9;
+}
+.usernav .icon-women {
+  background-color: #fb6361;
+}
+.usernav .icon-xinshouzhiyin {
+  background-color: #40c8b0 ;
+}
+.usernav .icon-wenti {
+  background-color: #ffae28;
+}
+.hotproducts {
+  background-color: #f9f9f9;
+  border-top: 1px solid #ccc;
+  padding-left: 0.23rem;
+  padding-right: 0.23rem;
+}
+.hotproducts .title {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.4rem;
+  margin-left: 0.25rem;
+  height: 0.95rem;
+  font-size: 0.3rem;
+  align-items: center;
+}
+.hotproducts .title a {
+  color: #9a9b9c;
+}
+.hotproducts .title h3 {
+  background: url(../img/home_ico_09.png) no-repeat;
+  background-size: 0.46rem 0.46rem;
+  color: #494848;
+  padding-left: 0.6rem;
+  height: 0.46rem;
+  line-height: 0.46rem;
+  width: 2.5rem;
+}
+.hotproducts .item {
+  padding-left: 0.23rem;
+  padding: 0.25rem;
+  height: 2.55rem;
+  margin-bottom: 0.25rem;
+  border: 1px solid  #e9e9e8;
+}
+.hotproducts .item .item-title {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.22rem;
+}
+.hotproducts .item .item-title h4 {
+  font-size: 0.28rem;
+  color: #494848;
+}
+.hotproducts .item .item-title .cash {
+  width: 0.85rem;
+  height: 0.3rem;
+  padding: 0.05rem;
+  background-color: #FFAB37;
+  color: #fff;
+  font-size: 0.28rem;
+}
+.hotproducts .item .item-title .icon-vip {
+  width: 0.33rem;
+  height: 0.3rem;
+  padding: 0.05rem;
+  background-color: #FF7404;
+  color: #fff;
+}
+.hotproducts .item .data {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.27rem;
+}
+.hotproducts .item .data .data1 strong {
+  font-size: 0.38rem;
+  color: #FB3040;
+  padding-left: 0.43rem;
+}
+.hotproducts .item .data .data1 span {
+  color: #FF7900;
+  font-size: 0.24rem;
+  font-weight: bold;
+}
+.hotproducts .item .data .data3 img {
+  height: 1.36rem;
+  width: 1.36rem;
+}
+.hotproducts .item .data .data2 {
+  margin-left: 0.87rem;
+  font-size: 0.3rem;
+  padding-right: 0.56rem;
+}
+.hotproducts .item .data .data2 strong {
+  color: #3d3c3c;
+}
+.hotproducts .item .data .data2 p {
+  color: #9a9b9c;
+}
+.news {
+  background-color: #fff;
+}
+.news .title {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.4rem;
+  margin-left: 0.25rem;
+  height: 0.95rem;
+  font-size: 0.3rem;
+  align-items: center;
+}
+.news .title a {
+  color: #9a9b9c;
+}
+.news .title h3 {
+  background: url(../img/home_ico_10.png) no-repeat;
+  background-size: 0.46rem 0.46rem;
+  color: #494848;
+  padding-left: 0.6rem;
+  height: 0.46rem;
+  line-height: 0.46rem;
+  width: 2.5rem;
+}
+.news .itemlist {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.news .itemlist .item {
+  margin-top: 0.35rem;
+}
+.news .itemlist .item img {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-left: 0.23rem;
+  border-radius: 20%;
+  flex: 0 0 auto;
+}
+.news .itemlist .item a {
+  display: flex;
+}
+.news .itemlist .item div {
+  padding-left: 0.23rem;
+  flex: 1 1 auto;
+}
+.news .itemlist .item div h4 {
+  font-size: 0.28rem;
+  color: #494848;
+  margin-bottom: 0.1rem;
+  padding-top: 0.1rem;
+}
+.news .itemlist .item div p {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.24rem;
+  font-size: 0.24rem;
+}
+footer {
+  height: 1.65rem;
+  text-align: center;
+  margin-top: 0.45rem;
+}
+footer .links {
+  color: #494848;
+  font-size: 0.28rem;
+}
+footer .copyright {
+  color: #9a9b9c;
+  font-size: 0.26rem;
+}
